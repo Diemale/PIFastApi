@@ -78,7 +78,6 @@ result = session.execute(stmt)
 mr = result.all()
 for elemento in mr:
     print(elemento[0], int(elemento[1]))
-#print(mr.driverName)
 print(mr)
 
 
